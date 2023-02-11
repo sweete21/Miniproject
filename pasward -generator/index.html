@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pasward generator</title>
+</head>
+
+<link rel="stylesheet" href="styles.css">
+<body>
+    <div class="paswrdgen">
+        <h3>PASSWORD GENERATOR</h3>
+        <div class="result">
+            <textarea id="display"></textarea>
+        </div>
+        <div class="set">
+                <div class="text">
+                    <label for="paslen">Enter the length</label>
+                    <input type="number" id="paslen" min="4" max="20" >
+                </div>
+                <div class="check">
+                    <label for="uppercase">Include Uppercase</label>
+                    <input type="checkbox" id="uppercase">
+                </div>
+                <div class="check">
+                    <label for="lowercase">Include Lowercase</label>
+                    <input type="checkbox" id="lowercase" >
+                </div>
+                <div class="check">
+                    <label for="specialcharacter">Include Special Characters</label>
+                    <input type="checkbox" id="specialcharacter" >
+                </div>
+                
+                <div class="check">
+                    <label for="number">Include Numeric Value</label>
+                    <input type="checkbox" id="number">
+                </div>
+                
+        </div>
+        <div class="buttons">
+            <button class="generator" onclick="create()" >
+                <img src="key.png">
+                Generate 
+            </button>
+            <button class="copy" onclick="copy()">
+                <img src="copy.png">
+                Copy
+            </button>
+        </div>  
+    </div>
+   
+    <script src="pasward.js">
+
+    </script>
+</body>
+</html>

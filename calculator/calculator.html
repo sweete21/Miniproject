@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=div.calci, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+   <header class="header">
+    <h1>Calculator</h1>
+   </header>
+   <div class="calculator">
+        <div class="calci">
+            <form>
+                <div>
+                <div class="box-row">
+                <input type="text" id="result"  >
+                </div>
+                <div class="operator">
+                    <input type="button" value="AC" onclick="result.value=''">
+                    <input type="button" value="DEL" onclick="result.value=result.value.toString().slice(0,-1)">
+                    <input type="button" value="."  onclick="show('.')">
+                    <input type="button" value="/"  onclick="show('/')">
+                </div>
+                <div>
+                    <input type="button" value="7" onclick="show('7')">
+                    <input type="button" value="8" onclick="show('8')">
+                    <input type="button" value="9" onclick="show('9')">
+                    <input type="button" value="+" onclick="show('+')">
+                </div>
+                <div>
+                    <input type="button" value="4" onclick="show('4')">
+                    <input type="button" value="5" onclick="show('5')">
+                    <input type="button" value="6" onclick="show('6')">
+                    <input type="button" value="-" onclick="show('-')">
+                </div>
+                <div>
+                    <input type="button" value="1" onclick="show('1')">
+                    <input type="button" value="2" onclick="show('2')">
+                    <input type="button" value="3" onclick="show('3')">
+                    <input type="button" value="*" onclick="show('*')">
+                </div>
+                <div>
+                    <input type="button" value="0" onclick="show('0')"> 
+                    <input type="button" value="+" onclick="show('+')">
+                    <input type="button" value="=" onclick="check('=')" class="equal">
+                    
+                </div>
+            </form>
+        </div>
+   </div>
+   <div class="about">
+    <p>
+        This is a basic Calculator with 4 functionality
+        <ul>
+            <li>Addition</li>
+            <li>Subtraction</li>
+            <li>Multiplication</li>
+            <li>Division</li>
+        </ul>
+       &nbsp AC: It is use to clear the data dispalying of output screen
+        <br>
+       &nbsp DEL: It is used to delete last digit of expressioon displaying<br>&nbsp on output screen 
+    </p>
+
+   </div>
+  </div>
+  
+ </div>
+   <script src="compute.js">
+
+   </script>
+    
+</body>
+</html>

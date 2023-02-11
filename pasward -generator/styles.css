@@ -1,0 +1,61 @@
+
+h3{
+    margin: 10px 0 20px;
+    text-align: center;
+}
+
+textarea {
+    background: none;
+    border: none;
+    color: var(--color);
+    font-size: 20px;
+    margin-top: auto;
+    outline: none;
+    resize: none;
+}  
+.paswrdgen{
+
+  background-color: rgb(75, 210, 244);    
+  padding: 20px;
+  width: 280px;
+  max-width: 100%;
+  box-shadow: 5px 5px 10px rgb(187, 184, 184);
+  border: 12px solid var(--bg-color);
+  filter: var(--filter1);
+  margin-left: 520px;
+  margin-top: 100px;
+
+}
+.result
+{
+    background-color: white;
+    border: 1px solid;
+    box-shadow: 5px 5px rgb(211, 239, 251);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    font-size: 13px;
+    letter-spacing: 1px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 35px;
+}
+.check,.text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+.buttons{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+.generator, .copy{
+    height: 40px;
+    width: 100px;
+    box-shadow: 5px 5px rgb(211, 239, 251);
+
+}

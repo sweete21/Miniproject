@@ -1,0 +1,42 @@
+body
+{
+    background-color: aquamarine;
+}
+
+
+.card{
+      background-color: white;
+      width: 900px;
+      float: centre;
+      margin-left: 300px;
+      text-align: center;
+      height: 370px;
+            
+    }
+
+.card-text
+    {
+     font-size: 18px;
+     
+    }
+.style
+    {
+      
+       margin-top: 50px;
+    }
+.pasward
+    {
+      background-color: yellow;
+      border-radius: 10px;
+      border: none;
+      font-size: 18px;
+    }
+.calculator
+    {
+        background-color: yellow;
+        border-radius: 10px;
+        font-size: 18px;
+        border: none;
+        margin-left: 30px;
+     }
+
