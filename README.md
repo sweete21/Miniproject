@@ -10,7 +10,7 @@ I have created a pasword generator along with calculator using **HTML,CSS** and 
  
 
 * calculator  
- * The calculator I have created is able to perform simple mathematical operations.
+  * The calculator I have created is able to perform simple mathematical operations.
 
 ### folder cointaining link of both folder having password-generator and calculator
       * main
